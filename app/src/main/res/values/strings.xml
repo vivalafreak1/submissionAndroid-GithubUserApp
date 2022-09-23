@@ -1,6 +1,10 @@
 <resources>
+    <string name="app_name">GithubUserApp</string>
+
+    <string name="name">Nama User</string>
+    <string name="username">Username</string>
     <!--  Other string resources -->
-    <string-array name="username">
+    <string-array name="data_username">
         <item>JakeWharton</item>
         <item>amitshekhariitbhu</item>
         <item>romainguy</item>
@@ -12,7 +16,7 @@
         <item>hendisantika</item>
         <item>sidiqpermana</item>
     </string-array>
-    <string-array name="name">
+    <string-array name="data_name">
         <item>Jake Wharton</item>
         <item>Amit Shekhar</item>
         <item>Romain Guy</item>
@@ -24,7 +28,7 @@
         <item>Hendi Santika</item>
         <item>Sidiq Permana</item>
     </string-array>
-    <string-array name="location">
+    <string-array name="data_location">
         <item>Pittsburgh, PA, USA</item>
         <item>New Delhi, India</item>
         <item>California</item>
@@ -36,7 +40,7 @@
         <item>Bojongsoang - Bandung Jawa Barat</item>
         <item>Jakarta Indonesia</item>
     </string-array>
-    <string-array name="repository">
+    <string-array name="data_repository">
         <item>102</item>
         <item>37</item>
         <item>9</item>
@@ -48,7 +52,7 @@
         <item>1064</item>
         <item>65</item>
     </string-array>
-    <string-array name="company">
+    <string-array name="data_company">
         <item>Google, Inc.</item>
         <item>MindOrksOpenSource</item>
         <item>Google</item>
@@ -60,7 +64,7 @@
         <item>JVMDeveloperID @KotlinID @IDDevOps</item>
         <item>Nusantara Beta Studio</item>
     </string-array>
-    <string-array name="followers">
+    <string-array name="data_follower">
         <item>56995</item>
         <item>5153</item>
         <item>7972</item>
@@ -72,7 +76,7 @@
         <item>428</item>
         <item>465</item>
     </string-array>
-    <string-array name="following">
+    <string-array name="data_following">
         <item>12</item>
         <item>2</item>
         <item>0</item>
@@ -84,7 +88,7 @@
         <item>61</item>
         <item>10</item>
     </string-array>
-    <string-array name="avatar">
+    <string-array name="data_avatar">
         <item>@drawable/user1</item>
         <item>@drawable/user2</item>
         <item>@drawable/user3</item>
