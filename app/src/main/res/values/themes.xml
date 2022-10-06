@@ -15,7 +15,7 @@
     </style>
     <!-- SplashScreen theme. -->
     <style name="Theme.GithubUserApp.SplashScreen" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenBackground">@color/white_splashscreen</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/logo_github2</item>
         <item name="postSplashScreenTheme">@style/Theme.GithubUserApp.Main</item>
     </style>

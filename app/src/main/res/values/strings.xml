@@ -3,6 +3,9 @@
 
     <string name="name">Nama User</string>
     <string name="username">Username</string>
+    <string name="following">Following</string>
+    <string name="follower">Follower</string>
+    <string name="repository">Repository</string>
     <!--  Other string resources -->
     <string-array name="data_username">
         <item>JakeWharton</item>

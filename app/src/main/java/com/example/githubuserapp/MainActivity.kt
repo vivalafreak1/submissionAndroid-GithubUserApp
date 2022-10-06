@@ -1,5 +1,6 @@
 package com.example.githubuserapp
 
+import android.content.Intent
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -33,8 +34,8 @@ class MainActivity : AppCompatActivity() {
             val dataLocation = resources.getStringArray(R.array.data_location)
             val dataRepository = resources.getStringArray(R.array.data_repository)
             val dataCompany = resources.getStringArray(R.array.data_company)
-            val dataFollower = resources.getIntArray(R.array.data_follower)
-            val dataFollowing = resources.getIntArray(R.array.data_following)
+            val dataFollower = resources.getStringArray(R.array.data_follower)
+            val dataFollowing = resources.getStringArray(R.array.data_following)
             val dataAvatar = resources.obtainTypedArray(R.array.data_avatar)
             val listUser = ArrayList<User>()
             for (i in dataUsername.indices) {
@@ -54,7 +55,10 @@ class MainActivity : AppCompatActivity() {
         }
 
     private fun showSelectedUser(user : User) {
-        Toast.makeText(this, "Kamu memilih " + user.username, Toast.LENGTH_SHORT).show()
+        //Toast.makeText(this, "Kamu memilih " + user.username, Toast.LENGTH_SHORT).show()
+        val intent = Intent(this@MainActivity, DetailActivity::class.java)
+        intent.putExtra(DetailActivity.EXTRA_USER, user)
+        startActivity(intent)
     }
 
 
